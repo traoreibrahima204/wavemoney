@@ -1,0 +1,93 @@
+body {
+margin: 0;
+background-color: black;
+width: 350px;
+margin-left: 400px;
+height: auto;
+border: 1px solid;
+}
+.body-section {
+justify-content: center;
+align-items: center;
+
+}
+header {
+background-color: rgb(53, 53, 210);
+padding: 20px;
+border-radius: 0 0 25px 25px;
+
+}
+.header-content{
+display: flex;
+justify-content: space-between;
+}
+.header-money{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.header-money span{
+color: white;
+}
+.header-card{
+margin-left: 40px;
+margin-right: 40px;
+position: relative;
+background-color: rgb(36, 178, 217);
+border-radius: 15px;
+padding: 7px;
+
+}
+section .card-color{
+    background-color: white;
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+.header-card p {
+color: rgb(0, 0, 0);
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: -17px;
+gap: 5px;
+font-size: small;
+}
+.header-card a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#divhr{
+    padding: 2px;
+    border-radius: 5px;
+    background-color: grey;
+}
+main {
+background-color: white;
+border-radius: 25px 25px 0 0;
+padding: 20px;
+margin-top: -60px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+.menu-item{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      margin-bottom: 10px;
+}
